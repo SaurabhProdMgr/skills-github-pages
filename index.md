@@ -11,6 +11,16 @@ Welcome to my **first GitHub Page**! I'm so excited you're here.
 - Software enthusiast and lifelong learner.
 - Passionate about building useful things with code.
 
+## 📝 Recent Posts
+  <ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
+
 ## 🔥 Projects
 - **Awesome App** – _Coming Soon!_
 - **Open Source Contributions** – _Coming Soon!_
