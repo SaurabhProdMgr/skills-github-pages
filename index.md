@@ -17,7 +17,7 @@ Welcome to my **first GitHub Page**! I'm so excited you're here.
 
 ## 📫 Let's Connect
 - [GitHub](https://github.com/saurabhusername)
-- [LinkedIn](https://linkedin.com/in/saurabhprofile)
+- [LinkedIn](https://www.linkedin.com/in/saurabhns/)
 - [Twitter](https://twitter.com/saurabhtwitter)
 
 ---
