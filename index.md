@@ -12,11 +12,10 @@ Welcome to my **first GitHub Page**! I'm so excited you're here.
 - Passionate about building useful things with code.
 
 ## 📝 Recent Posts
-  <ul>
+<ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <p>{{ post.excerpt }}</p>
+      <a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%B %d, %Y" }}
     </li>
   {% endfor %}
 </ul>
